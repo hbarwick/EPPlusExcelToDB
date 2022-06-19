@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EPPlusExcelToDB": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\halla\\OneDrive\\Desktop\\C# Projects\\EPPlusExcelToDB"
+    }
+  }
+}
