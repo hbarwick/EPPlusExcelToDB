@@ -1,4 +1,5 @@
 ﻿
+using EPPlusExcelToDB.Controller;
 using EPPlusExcelToDB.Model;
 using EPPlusExcelToDB.Reader;
 using OfficeOpenXml;
@@ -13,3 +14,6 @@ using (var package = new ExcelPackage(new FileInfo(file)))
 }
 
 
+DBController db = new();
+
+db.CreateDatabase();
