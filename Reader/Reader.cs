@@ -22,10 +22,7 @@ namespace EPPlusExcelToDB.Reader
                 }
                 list.Add(obj);
             }
-
             return list;
         }
-
-
     }
 }

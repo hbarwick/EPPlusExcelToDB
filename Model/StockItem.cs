@@ -1,5 +1,8 @@
-﻿namespace EPPlusExcelToDB.Model
+﻿using Dapper.Contrib.Extensions;
+
+namespace EPPlusExcelToDB.Model
 {
+    [Table("Products")]
     internal class StockItem
     {
         public string Product { get; set; }
